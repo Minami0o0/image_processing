@@ -1,80 +1,49 @@
+課題1
+====
+
 ## 概要
 
-本稿では、白黒濃淡画像にしたのち、２・４・８段階画像に変換した。
+「christmas tree.jpg」を原画像とする．この画像は自分の携帯で撮影した画像である。
+
+課題１では原画像を1/2サンプリング、1/4サンプリングとサンプリング幅を大きくしていった。
 
 ## 使用した画像
 
-![Alt text](1-1.png "Optional title")
+![Alt text](img/1-1.png "Optional title")
 
 ## 結果
 
 
-![Alt text](1-2.png "Optional title")
+![Alt text](img/1-2.png "Optional title")
 
-図１　白黒濃淡
+図１　1段階目
 
-![Alt text](1-3.png "Optional title")
+![Alt text](img/1-3.png "Optional title")
 
-図２ 64
-
-
-![Alt text](1-4.png "Optional title")
-
-図3　96
-
-![Alt text](1-5.png "Optional title")
-
-図4 128
-
-![Alt text](1-6.png "Optional title")
-
-図5　192
+図２  2段階目
 
 
-### 他の画像で試した
+![Alt text](img/1-4.png "Optional title")
 
-![Alt text](hashi.png "Optional title")
+図3　 3段階目
 
-図6　hashi.png
+![Alt text](img/1-5.png "Optional title")
 
-![Alt text](kadai3/21.png "Optional title")
+図4 　 4段階目
 
-図7 白黒濃淡
+![Alt text](img/1-6.png "Optional title")
 
-![Alt text](kadai3/22.png "Optional title")
+図5　5段階目
 
-図8 64
 
-![Alt text](kadai3/23.png "Optional title")
-
-図9 96
-
-![Alt text](kadai3/24.png "Optional title")
-
-図10 128
-
-![Alt text](kadai3/25.png "Optional title")
-
-図11 192
 
 
 
 ## プログラムのソース
 
-[kadai3.m](https://github.com/shimamurakie/ImageProssessing/blob/master/kadai3.m)
+[kadai1.m](https://github.com/Minami0o0/image_processing/blob/master/lecture_image_processing-master/kadai1.m)
 
-## 説明
+
 
 ## 考察
-nuko.pngは猫の輪郭がはっきりしていないせいか、どの閾値をとっても画像が不明瞭となってしまった。
-
-一方hashi.pngでは輝度のバランスが良く、木の葉による影ご細かいことから64の閾値でくっきりとした画像となった。
-
-
-## Contribution
-
-
-
-## Author
-
-[shimamurakie](https://github.com/shimamurakie)
+1段階目から２段階目でのサンプリングではあまり変化が見られないが３段階目から５段階目とサンプリング幅が大きくなっていくとモザイク状のサンプリング歪みが発生することが確認できた。
