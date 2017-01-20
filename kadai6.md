@@ -11,15 +11,15 @@
 ![Alt text](img/christmas tree.jpg "Optional title")
 
 ## 生成された画像
-![Alt text](img/6-1.png 　"Optional title")
+![Alt text](img/6-1.png　"Optional title")
 
 白黒濃淡画像にしたもの
 
-![Alt text](img/6-2.png 　"Optional title")
+![Alt text](img/6-2.png　"Optional title")
 
 濃度値＝128で2値化
 
-![Alt text](img/6-3.png 　"Optional title")
+![Alt text](img/6-3.png　"Optional title")
 
 ディザ法で2値化
 
